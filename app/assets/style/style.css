@@ -62,7 +62,7 @@ img {
 	text-align: center;
 }
 
-.banner{
+.header{
     background-image: url(../images/banner.png);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -70,6 +70,13 @@ img {
 	margin-bottom: 56px;
 }
 
+.banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
 
 h1{
 	font-size: 80px;
@@ -85,6 +92,7 @@ h3{
 
 .banner p{
 	font-weight: bold;
+	text-align: left;
 }
 
 .banner ul{
